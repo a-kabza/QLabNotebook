@@ -1,0 +1,80 @@
+---
+title: "Lab Notebook"
+author:
+  - name: "Dr. Adam M. Kabza"
+    affiliation: "Pacific Northwest National Laboratory"
+date: today
+format:
+  pdf:
+    documentclass: report
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    geometry:
+      - margin=1in
+  html:
+    toc: true
+    toc-location: left
+    code-fold: true
+---
+
+# Project: [Proximity Labeling of Protein-Protein Interactions]
+
+## Background
+Trem2 and Abi3 are proteins known to be involbed in microglial function and have been implicated in Alzheimer's disease. Understanding their interactions and functions could provide insights into the disease mechanisms.
+
+
+## Hypothesis
+PPIs are the primary mechanism by which biochemical information is transmitted within the cell. By identifying the PPIs of Trem2 and Abi3, we can gain insights into their functions and roles in microglial biology and Alzheimer's disease. This work will generate the first empirical dataset analyzing the interactomes of Trem2 and Abi3. By understanding these interactions, we hope to gain insight for targettable pathways for therapeutic intervention in Alzheimer's disease as well as fundamental pathological mechanistic insight.
+
+
+---
+
+# Entry 1: [2025.05.02]
+
+### Objective
+Using protein ruler methods to determine the copy number of Trem2 and Abi3 in microglia. We are comparing 4 different cell lines, one human, three mouse, to see which have the highest expression of these already lowly expressed proteins. This will help us determine which cell line to use for our proximity labeling experiments.
+
+
+### Protocol
+
+1.	Results from analysis are on Kaiju
+2.	We ran diann twice per sample type (mouse and human)
+3.	Got good # of IDs (8,500 proteins)
+4.	Pull from uniprot human/mouse histone lists for normalization of the data since histones should be constant across cell lines.
+
+
+### Observations
+
+
+![Figure 1: Protein Ruler Results for Trem2 and Abi3 copy numbers](images/protein_ruler_abi_trem.png){fig-align="center" width=80%}
+
+### Data
+
+---
+
+# Entry 2: [Date]
+
+### Objective
+
+
+
+### Protocol
+
+1. Step one
+2. Step two
+3. Step three
+
+### Observations
+
+- 
+- 
+- 
+
+### Data
+
+```{python}
+# Add code for data analysis
+import pandas as pd
+import matplotlib.pyplot as plt
