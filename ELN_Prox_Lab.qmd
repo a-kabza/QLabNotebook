@@ -47,9 +47,8 @@ Using protein ruler methods to determine the copy number of Trem2 and Abi3 in mi
 
 ### Observations
 
-- 
-- 
-- 
+
+![Figure 1: Protein Ruler Results for Trem2 and Abi3 copy numbers](images/protein_ruler_abi_trem.png){fig-align="center" width=80%}
 
 ### Data
 
